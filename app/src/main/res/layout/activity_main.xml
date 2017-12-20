@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rk0126.trumpgame.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/newGameStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game" />
+
+        <Button
+            android:id="@+id/loadGameStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/load_game" />
+    </LinearLayout>
+
+</RelativeLayout>
