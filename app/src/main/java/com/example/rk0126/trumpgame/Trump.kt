@@ -1,8 +1,5 @@
 package com.example.rk0126.trumpgame
 
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-
 /*
  * トランプ
  * 親クラス: GameObject
@@ -11,8 +8,8 @@ import android.graphics.BitmapFactory
  */
 
 class Trump(var suit: String, var rank: Int)  : GameObject() {
-    var visible: Boolean //オモテウラ：trueのときに表
-    var change: Boolean  //交換フラグ：trueのときに交換
+    var visible: Boolean = true //オモテウラ：trueのときに表
+    var change: Boolean = false //交換フラグ：trueのときに交換
 
     init {
         this.visible = true
