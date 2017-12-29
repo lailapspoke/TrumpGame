@@ -15,10 +15,6 @@ import android.content.Context.WINDOW_SERVICE
 import android.view.WindowManager
 import android.content.Context.WINDOW_SERVICE
 
-
-
-
-
 class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback, Runnable, TrumpGame {
 
     //System
